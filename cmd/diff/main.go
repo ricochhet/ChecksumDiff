@@ -91,7 +91,7 @@ func compareFolders(folder1, folder2 string) error {
 
 func main() {
 	if len(os.Args) != 3 {
-		fmt.Println("Usage: validator <folder1> <folder2>")
+		fmt.Println("Usage: diff <folder1> <folder2>")
 		os.Exit(1)
 	}
 
